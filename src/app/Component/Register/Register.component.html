@@ -1,0 +1,17 @@
+<!-- <p>register works!</p> -->
+<h2>Register</h2>
+<div class="form_container">
+    <input type="text" placeholder="Please enter your name" [(ngModel)]="userName" />
+    <!-- representation ui but we need to put this logic when submitting -->
+    <span *ngIf="!NameValid && userName; else trueBlock">name characters should be more than 3</span>
+    <ng-template #trueBlock>
+        <span *ngIf="userName" style="color: green">Data True</span>
+    </ng-template>
+    <input type="number" placeholder="Please enter your age" [(ngModel)]="userAge" min="20" max="30" />
+    <span *ngIf="!AgeValid && userAge; else trueBlock2">20 &lt; Age &lt; 30
+    </span>
+    <ng-template #trueBlock2>
+        <span *ngIf="userAge" style="color: green">Data True</span>
+    </ng-template>
+    <input type="button" value="ADD" (click)="add()" />
+</div>
