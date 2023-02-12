@@ -25,7 +25,7 @@
 
 .form_container input[type='button'] {
     width: 40%;
-    background-color: rgb(135, 135, 230);
+    background-color: rgb(3, 248, 252);
 
     color: white;
 }
@@ -33,7 +33,7 @@
 h2,
 text {
     text-align: center;
-    color: rgb(135, 135, 230);
+    color: rgb(3, 248, 252);
 
 }
 
@@ -49,7 +49,7 @@ table {
 
 tr,
 td {
-    border: 1px rgb(135, 135, 230);
+    border: 2px rgb(3, 248, 252);
     border-radius: 5px;
     text-align: center;
     width: 50%;
