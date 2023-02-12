@@ -16,7 +16,7 @@ input {
     width: 20%;
     margin-right: 8px;
     padding: 8px;
-    background-color: rgb(110, 110, 212);
+    background-color: rgb(3, 248, 252);
     border: none;
     border-radius: 10px;
     color: white;
@@ -29,7 +29,8 @@ input:hover {
 h2,
 text {
     text-align: center;
-    color: rgb(135, 135, 230);
+    color: rgb(3, 248, 252);
+  
 
 }
 
