@@ -1,6 +1,6 @@
 h2 {
     text-align: center;
-    color: rgb(135, 135, 230);
+    color: rgb(3, 248, 252);
 
 }
 
@@ -40,7 +40,7 @@ h2 {
 
 .form_container input[type='button'] {
     width: 40%;
-    background-color: rgb(135, 135, 230);
+    background-color: rgb(3, 248, 252);
 
     color: white;
 }
